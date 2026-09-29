@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Environment variables / API keys
+.env
+.env.*
+!.env.example
+
+# Visual Studio / VS Code
+.vs/
+.vscode/
+
+# Video người dùng tải lên
+uploads/*
+!uploads/.gitkeep
+
+# Frames được trích xuất từ video
+frames/*
+!frames/.gitkeep
+
+# AI model files
+*.pt
+*.pth
+*.onnx
+
+# Temporary files
+*.tmp
+*.log
+
+# Operating system
+.DS_Store
+Thumbs.db
